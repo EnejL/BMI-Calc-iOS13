@@ -10,7 +10,7 @@
         <!--Calculate View Controller-->
         <scene sceneID="5Te-KZ-3gN">
             <objects>
-                <viewController id="9q0-Mo-AKg" customClass="CalculateViewController" customModule="BMI_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9q0-Mo-AKg" customClass="CalculateViewController" customModule="BMI_Calc_iOS13" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dUN-5T-5Ct">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -130,6 +130,7 @@
                         <outlet property="heightSlider" destination="BdA-u8-rc1" id="EY5-43-aCD"/>
                         <outlet property="weightLabel" destination="kV9-wt-Za0" id="sP4-gC-Emi"/>
                         <outlet property="weightSlider" destination="DC8-8O-QE7" id="wrD-qa-Ikf"/>
+                        <segue destination="P2y-AT-V0k" kind="presentation" identifier="goToResult" id="hvw-D6-ihG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jqu-ew-Xqu" sceneMemberID="firstResponder"/>
@@ -139,16 +140,16 @@
         <!--Results View Controller-->
         <scene sceneID="QE4-YW-cb5">
             <objects>
-                <viewController id="P2y-AT-V0k" customClass="ResultsViewController" customModule="BMI_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="P2y-AT-V0k" customClass="ResultsViewController" customModule="BMI_Calc_iOS13" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BDT-YD-ZJr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="result_background" translatesAutoresizingMaskIntoConstraints="NO" id="qgP-tE-nBQ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gmR-KT-NtK">
-                                <rect key="frame" x="88.5" y="359.5" width="237" height="177.5"/>
+                                <rect key="frame" x="88.5" y="332.5" width="237" height="177.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="YOUR RESULT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQs-Rz-g4K">
                                         <rect key="frame" x="0.0" y="0.0" width="237" height="42"/>
@@ -171,7 +172,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lL-6T-r4G">
-                                <rect key="frame" x="20" y="801" width="374" height="51"/>
+                                <rect key="frame" x="20" y="747" width="374" height="51"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="oMz-L0-EqB"/>
