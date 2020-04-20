@@ -7,7 +7,7 @@
 The BMI Calculator app dives into using sliders, segues and provides for further practice of the MVC design pattern.
 
 ![](header.png)
-![](https://github.com/EnejL/Readme-images/blob/master/BMI-Calc-iOS13/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20-%202020-04-20%20at%2021.20.26.png)
+![](https://github.com/EnejL/Readme-images/blob/master/BMI-Calc-iOS13/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20-%202020-04-20%20at%2021.20.26.png)&nbsp;&nbsp;
 ![](https://github.com/EnejL/Readme-images/blob/master/BMI-Calc-iOS13/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20-%202020-04-20%20at%2021.20.31.png)
 
 
