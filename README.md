@@ -20,7 +20,7 @@ The BMI Calculator app dives into using sliders, segues and provides for further
 
 ## Meta
 
-Enej Licina – YourEmail@example.com
+Enej Licina – enej.licina@gmail.com
 
 [swift-image]:https://img.shields.io/badge/swift-5.2-orange.svg
 [swift-url]: https://swift.org/
